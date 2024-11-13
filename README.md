@@ -33,6 +33,8 @@ La classification via k-means permet également de vérifier, en comparant la r�
 
 ### Modèle de classification par espèce
 
+![decision_tree_specie](https://github.com/user-attachments/assets/86f699e3-04cc-4e14-9f52-7ff4c267229c)
+
 Pour le modèle de prédiction de l'espèce, nous obtenons une précision de 94%. L'importance des caractéristiques est la suivante :
 1. Longueur des nageoires : 52%
 2. Longueur du bec : 38%
@@ -43,6 +45,8 @@ Ces résultats suggèrent une corrélation claire entre les caractéristiques ph
 
 ### Modèle de classification par île
 
+![decision_tree_island](https://github.com/user-attachments/assets/ccf1f780-bb59-420f-8972-987d59b21e77)
+
 Pour le modèle de prédiction de l'habitat, nous obtenons une précision de 66%. L'importance des caractéristiques est la suivante :
 1. Longueur des nageoires : 63%
 2. Longueur du bec : 23%
@@ -52,5 +56,11 @@ Pour le modèle de prédiction de l'habitat, nous obtenons une précision de 66%
 Les résultats sont ici plus mitigés et moins significatifs que pour le modèle de classification par espèce, indiquant qu'il n'existe probablement pas de corrélation forte entre les caractéristiques physiques et l'habitat des pingouins.
 
 ### Classification k-means
+
+![islands_distrib](https://github.com/user-attachments/assets/c4ea2198-c15e-4dcb-927b-6a4e23a9f670)
+
+![species_distrib](https://github.com/user-attachments/assets/e9190833-f164-4e90-81db-99a1cea6faab)
+
+![k_means](https://github.com/user-attachments/assets/19a31e03-733a-43c6-a99b-d62384ac2298)
 
 Les résultats du clustering k-means corroborent nos observations : les clusters obtenus sont largement alignés avec la répartition des espèces, chaque cluster regroupant majoritairement des pingouins de la même espèce (à quelques exceptions près dues aux bruits). Cela soutient l'hypothèse de la corrélation entre les caractéristiques physiques et l'espèce.
