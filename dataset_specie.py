@@ -57,5 +57,5 @@ for feature, importance in zip(["bill_length_mm", "bill_depth_mm", "flipper_leng
 
 # Visualisation de l'Arbre
 plt.figure(figsize=(20, 10))
-plot_tree(clf, feature_names=df.columns, class_names=df["island"].unique(), filled=True)
+plot_tree(clf, feature_names=df.columns, class_names=df["species"].unique(), filled=True)
 plt.show()
