@@ -1,9 +1,4 @@
-# OUKHEMANOU Mohand-Tahar
-# Mastère DATA & IA
-# TP Dataset
-# [PRS] MIA 26.2
-
-TP Dataset - Création d'un Modèle de Classification.
+# TP Dataset - Création d'un Modèle de Classification.
 Par OUKHEMANOU Mohand.
 
 ## Informations
